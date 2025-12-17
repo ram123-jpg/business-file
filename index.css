@@ -1,3 +1,99 @@
-.pricing{
+body{
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-size:20px ;
+    text-shadow: 1px -1px 0px black;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(#a2d2ff,#EFB0C9);
+}
+
+#main-img{
+    border-radius: 50%;
+    width: 200px;
+    border:5px solid #EFB0C9;
+    
+}
+
+#body-age{
+     background: #EFB0C9;
+     padding: 4px 8px;
+     border-radius: 5px;
+      
+}
+#body-date{
+    margin: 0px;
+    background: #EFB0C9;
+     padding: 4px 8px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     margin-top: 5px;
+}
+ 
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-title{
+    margin-bottom: 10px;
+}
+
+ .gift-hint{
+    margin-top: 0px;
+ }
+.gift-img1{
+    margin: 0 auto;
+    width: 400px;
+    height:400px;
+   border: 6px solid #EFB0C9;
+    border-radius: 10px;
+     background-image: url("images/birthday.jpg");
+    background-size: cover;
+    
+}
+.gift-img1:hover{
+    background-image: url("images/happy.gif");
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.gift-img2{
+    margin: 0 auto;
+    width: 400px;
+    height:400px;
+   border: 6px solid #EFB0C9;
+    border-radius: 10px;
+     background-image: url("images/birthday.jpg");
+    background-size: cover;
+}
+.gift-img2:hover{
+    background-image: url("images/funny.gif");
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.gift-img3{
+    margin: 0 auto;
+    width: 400px;
+    height:300px;
+   border: 6px solid #EFB0C9;
+    border-radius: 10px;
+     background-image: url("images/birthday.jpg");
+    background-size: cover;
+}
+.gift-img3:hover{
+    background-image: url("images/cheer.gif");
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+#footer{
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+a{
+    color:white;
 }
